@@ -1,25 +1,22 @@
 # climate-ai-visualization
 AI-Augmented Climate Trend Visualization using NASA GISTEMP v4
+# climate-ai-visualization
+AI-Augmented Climate Trend Visualization using NASA GISTEMP v4
 
-# AI-Augmented Climate Trend Visualization using NASA GISTEMP v4
-
-This repository contains an AI-assisted workflow for visualizing long-term global climate trends using the **NASA GISTEMP v4** dataset. The project combines **Python-based data processing**, **template-based Natural Language Generation (NLG)**, and **information design principles** to produce clear and accessible climate communication materials.
+## Overview
+This repository contains an AI-assisted workflow for visualizing long-term global climate trends using the **NASA GISTEMP v4** dataset.  
+It integrates **data preprocessing**, **trend analysis**, **Natural Language Generation (NLG)**, and **information design principles** to produce accessible and informative climate visualizations.
 
 ## Features
-- Data preprocessing from NASA GISTEMP v4 CSV files
-- Linear regression trend analysis
-- Automated detection of anomaly years
-- Natural language summary generation
-- Infographic synthesis with matplotlib
+- **Data Preprocessing**: Clean and format NASA GISTEMP v4 CSV data
+- **Linear Trend Analysis**: Compute trend slope and visualize patterns
+- **Automatic Narrative Generation**: Generate text summaries of climate trends
+- **Natural Language Generation (NLG)** for human-readable outputs
+- **Infographic Design** following accessibility and information design principles
 
-## Dataset
-- **Source**: [NASA GISTEMP v4](https://data.giss.nasa.gov/gistemp/)
-- **Coverage**: 1880–present
-- **Variable**: Annual global surface temperature anomalies
-
-## How to Run
-1. Open the notebook in Google Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abigailazeda/climate-ai-visualization/blob/main/AI_Augmented_.ipynb)
+## How to Use
+1. Open the notebook in Google Colab:  
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abigailazeda/climate-ai-visualization/blob/main/AI_Augmented_.ipynb)
 2. Upload the GISTEMP v4 CSV file when prompted.
 3. Run all cells to generate:
    - Processed climate data
@@ -28,15 +25,19 @@ This repository contains an AI-assisted workflow for visualizing long-term globa
    - Infographic output
 
 ## Example Output
-*(Replace with your generated example image)*
-![Infographic Example](example_infographic.png)
+
+### 1. Global Annual Temperature Anomalies (1880–Present)
+![Global Annual Temperature Anomalies](Fig1_Global_Annual_Temperature_Anomalies.png)
+
+### 2. Global Annual Temperature Anomalies with Trend Line
+![Global Annual Temperature Anomalies with Trend Line](Fig2_Global_Annual_Temperature_Anomalies_TrendLine.png)
 
 ## Citation
 If you use this code in your research, please cite:
 
-Azeda, A. (2025). AI-Augmented Climate Trend Visualization using NASA GISTEMP v4. GitHub Repository. https://github.com/abigailazeda/climate-ai-visualization
+Azeda, A. (2025). *AI-Augmented Climate Trend Visualization using NASA GISTEMP v4*. GitHub Repository.  
+https://github.com/abigailazeda/climate-ai-visualization
 
 ## License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
