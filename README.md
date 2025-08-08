@@ -34,8 +34,9 @@ This repository contains an AI-assisted workflow for visualizing long-term globa
 ## Citation
 If you use this code in your research, please cite:
 
-Citation
 Azeda, A. (2025). AI-Augmented Climate Trend Visualization using NASA GISTEMP v4. GitHub Repository. https://github.com/abigailazeda/climate-ai-visualization
 
 ## License
-MIT License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+
